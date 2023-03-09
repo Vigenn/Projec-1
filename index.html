@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <header>
+      <h1>Text and words calculation</h1>
+    </header>
+  </div>
+  
+  <div class="TheWholeMaket">
+     <form>
+        <div class="text">
+        Text what you want write<br>
+        <textarea id="textarea" name="text" rows="4" cols="50"></textarea><br>
+        </div>
+        <button type="button" class="buttonCss" onClick="calculate()">Calculate</button>
+     </form>
+    <div class="output">
+      <p>Lettes :
+        <span id="resultLettes"></span>
+      </p>
+
+      <p>Numbers:
+        <span id="resultNumbers"></span>
+      </p>
+
+      <p> Words:
+        <span id="resultWords"></span>
+      </p>
+
+      <p> Sentences:
+        <span id="resultSentences"></span>
+      </p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
